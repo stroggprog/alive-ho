@@ -71,6 +71,6 @@ Note you can use either a hostname or an ip address (ipv4 or ipv6 are both valid
 Note also that servernames, ip addresses and port numbers are expressed as strings.
 
 ## Installing alive-hi
-Just drop `alive-hi.php` and `'alive-hi.json` somewhere on your intranet's web space - just ensure they are both in the same web folder.
+Just drop `alive-hi.php` and `alive-hi.json` somewhere on your intranet's web space - just ensure they are both in the same web folder.
 
 My webfolder is on a Raspberry Pi running Ubuntu Server, and with 13 servers to test (4 without alive-ho running to test downtime responses), it takes less than 1 second to open the new tab and display the results. In the meantime, conky shows alive-ho not consuming resources when there are no requests to service (in fact, conky is using more resources *sigh*).
