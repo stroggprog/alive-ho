@@ -1,0 +1,14 @@
+[Unit]
+Description=Alive-ho network alive messaging
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=phil
+ExecStart=/home/phil/bin/alive-ho
+
+[Install]
+WantedBy=multi-user.target

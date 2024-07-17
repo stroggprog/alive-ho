@@ -1,0 +1,11 @@
+{
+    "defport": "48947",
+    "servers": [
+        {
+            "server": "SampleServer1"
+        },
+        {
+            "server": "SampleServer2"
+        }
+    ]
+}
