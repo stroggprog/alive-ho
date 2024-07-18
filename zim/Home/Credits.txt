@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-07-18T00:35:59+01:00
+
+====== Credits ======
+Created Thursday 18 July 2024
+
+**Author:** Philip Ide
+
+**Alive-ho** is based on code repeated in so many places on the web that it's hard to pinpoint who actually wrote it. However, the basic TCP echo server code has been modified for Alive-ho to remove unwanted items and remove both memory leaks and unnecessary looping that consumed close to 100% CPU usage on a single core for each connection made to the server (even after the connection was closed).
+
+**Alive-hi** is written entirely by myself, but the code is so generic it is hardly worth crowing over.

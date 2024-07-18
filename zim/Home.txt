@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2024-07-18T00:31:11+01:00
+
+====== Home ======
+Created Thursday 18 July 2024
+
+[[+Credits]]
+inc num 19-18072024
