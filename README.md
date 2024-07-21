@@ -37,12 +37,12 @@ In the `[Service]` block, change the `User` and `ExecStart` name and folders to 
 
 Next, start the service and test:
 ```
-$ sudo systemctl start alive-ho
+sudo systemctl start alive-ho
 ```
 
 If all goes well, enable to start at boot and set a watchdog on it:
 ```
-$ sudo systemctl enable alive-ho
+sudo systemctl enable alive-ho
 ```
 
 ## alive-hi
