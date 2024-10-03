@@ -9,7 +9,7 @@ A simple echo server written in Rust for testing whether a computer is running, 
 ## About
 I have lots of computers. Some are x86, most are ARM64 Raspberry Pi (some are ARM32). I wanted to have a page on my main intranet server that displayed their up/down status.
 
-I copied some Rust code I found for a TCP echo server, stripped out the `println!` macros because this was going to run as a service, and corrected a horrendous memory leak that also sent the CPU to 100% utilisation on a core (one core per call). People shouldn't post untested code!
+I copied some Rust code I found for a TCP echo server, stripped out the `println!` macros because this was going to run as a service, and corrected an horrendous memory leak that also sent the CPU to 100% utilisation on a core (one core per call). People shouldn't post untested code!
 
 ## Installing alive-ho
 First, edit a service file:
